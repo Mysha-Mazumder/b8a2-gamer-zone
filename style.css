@@ -195,7 +195,9 @@ nav > ul{
 .banner-img img{
     width: 100%;
 }
-
+.banner-btn-sky{
+    margin-left: 0;
+}
 }
 
 
@@ -223,5 +225,7 @@ nav > ul{
   .banner-img img{
     width: 100%;
   }
-
+  .banner-btn-sky{
+    margin-left: 0;
+}
 }
