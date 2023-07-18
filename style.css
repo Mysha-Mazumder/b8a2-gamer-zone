@@ -1,0 +1,94 @@
+*{
+    font-family: 'Work Sans', sans-serif;   
+}
+nav{
+    background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    gap: 1rem;
+}
+.logo-img{
+width: 86.041px;
+height: 40px;
+}
+.logo-title{
+font-size: 45px;
+font-weight: 700;
+}
+.pink-g{
+color:#ff42a5
+}
+nav > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 150px;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav li a{
+text-decoration: none;
+color: #3C354F;
+font-size: 18px;
+font-weight: 500;
+}
+.follow-us{
+   padding: 8px 10px;
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+}
+.youtube-svg, .tiktok-svg{
+    width: 30px;
+    height: 18px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+/*Responsive Styles*/
+@media screen and (max-width:576px) {
+nav{
+    flex-direction: column;
+}    
+.logo{
+    margin-left: 0;
+}
+nav > ul{
+    flex-direction: column;
+    margin-right: 0;
+    gap: 36px;
+}
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        margin-left: 0;
+    }
+    nav > ul{
+        flex-direction: column;
+        margin-right: 0;
+        gap: 36px;
+    }
+}
