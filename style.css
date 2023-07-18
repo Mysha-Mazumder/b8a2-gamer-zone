@@ -142,18 +142,18 @@ margin-top:1rem;
     font-weight: 400;   
 }
 .play-images img{
-    width: 400px;
-height: 400px;
+    width: 350px;
+height: 350px;
 flex-shrink: 0;
 border-radius: 8px;
 margin-left: 250px;
 }
 .cartoon-img img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     position: relative;
-    top: -180px;
-    right: 100px;
+    top: -140px;
+    right: 80px;
     
 }
 /*play instantly styles ends*/
@@ -244,17 +244,18 @@ nav > ul{
     flex-direction: column;
 }
 .play-content{
+margin-top: 90px;
  width: 80%;   
 }
 .play-images img{
     width: 90%;
-    margin-left: 0;
+    margin-left: 10px;
 }
 .cartoon-img{
-        width: 200px;
+        width: 100px;
         height: 200px;
         position: relative;
-       left: 70px;
+       left: 50px;
         
 }
 
