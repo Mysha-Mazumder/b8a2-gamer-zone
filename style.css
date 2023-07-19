@@ -214,14 +214,110 @@ background: #FFF;
 .genre-name-img:hover{
 border: 2px solid #FF42A5;
 color: #FF42A5;
-
 }
+.genre-name{
+    font-size: 0.9rem;
+}
+/*footer styles start*/
+footer{
+    margin-top: 100px;
+    background-color:#0B0223;
+    color: #FFF;
+}
+.footer-logo {
+width: 30px;
+height: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+.footer-logo {
+    width: 60px;
+    height: 30px;
+    }
+    .footer-title{
+font-size: 45px;
+font-weight: 700;
+    }
+    .footer-category-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #FFF;
+font-size: 18px;
+font-weight: 600;
+    }
+  .category-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .category-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
 
-
-/*games genre styles ends*/
-
-
-
+.social-links-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    
+}
+.social-links-container:hover{
+    cursor: pointer;
+}
+.social-links-first-row img{
+    width: 30px;
+}
+.social-links-first-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.social-links-last-row img{
+    width: 30px;
+}
+.social-links-last-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.footer-settings{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    color: rgba(255, 255, 255, 0.60);
+font-size: 16px;
+font-weight: 500;
+}
+.settings-one{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;  
+}
+.setting-two{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;  
+}
+.copy-right{
+    text-align: center;
+}
 
 
 
@@ -341,6 +437,16 @@ margin-top: 90px;
     font-size: 0.8rem;
     font-weight: 600;
 }
+.footer-category-container{
+    flex-direction: column;
+}
+.social-links-container{
+    flex-direction: column;
+}
+.footer-settings{
+    flex-direction: column;
+}
+
 }
 @media screen and (min-width:576px) and (max-width:960px) {
   nav{
