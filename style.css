@@ -137,11 +137,39 @@ text-align: center;
 font-size: 18px;
 font-weight: 400;
 }
+
 .online-games-container{
 display: flex;
 justify-content: center;
 align-items: center;
 gap: 1rem;
+}
+.online-games-images{
+ position: relative;   
+}
+.play-button img{
+    width: 30px;
+    height: 30px;
+   padding-left: 26px;
+}
+.image-overlay{
+position: absolute;
+top: 0;
+left: 0;  
+width: 100%;
+height: 80.5%; 
+border-radius: 16px;
+background: rgba(0, 0, 0, 0.6); 
+color: #F948B2;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+opacity: 0;
+transition: opacity 0.25s;
+}
+.image-overlay:hover{
+    opacity: 1;
 }
 .online-games-photo{
     width: 220px;
@@ -403,7 +431,8 @@ nav > ul{
     flex-direction: column;
 }
 .play-content{
-margin-top: 90px;
+    margin-left: 20px;
+margin-top: 20px;
  width: 80%;   
 }
 .play-images img{
